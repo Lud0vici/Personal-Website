@@ -1,6 +1,18 @@
 html, body {
   background-color: lightblue;
   font-family: "Times New Roman", Times, serif;
+  font-size: 110%;
   height: 100%;
   width: 100%;
+}
+
+pre {font-family: "Times New Roman", Times, serif}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
